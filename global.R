@@ -1,5 +1,5 @@
 library(data.table)
-dataset <- read.csv("atlcrime.csv", header=TRUE, stringsAsFactors=FALSE)
+dataset <- read.csv("https://query.data.world/s/f579njshmbe668bz953mrlbij", header=TRUE, stringsAsFactors=FALSE)
 dataset$incident_date<-as.Date(dataset$date,"%m/%d/%Y")
 drops<-c("X","number","date","beat")
 dataset<-dataset[,!(names(dataset) %in% drops)]
