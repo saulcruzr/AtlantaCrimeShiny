@@ -4,4 +4,6 @@ This shiny app shows a collection of crime data from the Atlanta Police Departme
 # Run instructions
 In R Studio run the following:
 
-runGitHub( "AtlantaCrimeShiny", "saulcruzr") 
+0.- <code> library(shiny) </code>
+
+1.- <code> runGitHub( "AtlantaCrimeShiny", "saulcruzr") </code>
